@@ -9,4 +9,4 @@ class Question{
 
 }
 
-
+User._All = []
