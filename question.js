@@ -4,13 +4,10 @@ class Question{
     this.save()
   }
   static All(){
-    
+    return this._All;
   }
   save() {
     this.constructor._All.push(this)
-  }
-  static(){
-    return this._All;
   }
 
 }
