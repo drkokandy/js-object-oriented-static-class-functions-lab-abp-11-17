@@ -9,4 +9,4 @@ class Question{
 
 }
 
-let Question._All = [];
+
