@@ -10,6 +10,10 @@ class Question{
   save() {
     this.constructor._All.push(this)
   }
+  static Find(id){
+    return this.All()[id+1];
+    })
+  }
 
 }
 Question._All = []
