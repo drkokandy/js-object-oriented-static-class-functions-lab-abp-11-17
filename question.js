@@ -6,6 +6,9 @@ class Question{
   save() {
     this.constructor._All.push(this)
   }
+  static(){
+    return this._All;
+  }
 
 }
 User._All = []
