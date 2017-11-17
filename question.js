@@ -1,7 +1,7 @@
 'use strict';
 class Question{
   static All(){
-    this.save(this)
+    this.save()
   }
   save() {
     this.constructor._All.push(this)
